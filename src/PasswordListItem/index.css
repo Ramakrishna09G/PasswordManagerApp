@@ -1,0 +1,102 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.checkbox-password-list-item-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.password-list-item-container {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #7683cb;
+  background-color: #454f84;
+  border-radius: 5px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  height: 110px;
+  width: 265px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 5px;
+}
+.name-logo {
+  height: 45px;
+  width: 45px;
+
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+.url-username-password-card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 50%;
+}
+.url {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+}
+.user-name {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.password {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+.stars {
+  width: 115px;
+  height: 15px;
+}
+.delete-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 35px;
+  width: 15%;
+}
+.delete-img {
+  height: 25px;
+  width: 25px;
+}
