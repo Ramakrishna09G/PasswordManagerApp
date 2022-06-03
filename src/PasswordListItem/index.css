@@ -41,16 +41,23 @@
   display: flex;
   justify-content: baseline;
   align-items: center;
-  height: 110px;
-  width: 265px;
+  height: 125px;
+  width: 100%;
   padding-left: 10px;
   padding-right: 10px;
   margin-right: 5px;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  .password-list-item-container {
+    height: 110px;
+    width: 265px;
+    margin-bottom: 0px;
+  }
 }
 .name-logo {
   height: 45px;
   width: 45px;
-
   border-radius: 22px;
   display: flex;
   align-items: center;
@@ -93,8 +100,13 @@
   outline: none;
   background-color: transparent;
   cursor: pointer;
-  margin-left: 35px;
+  margin-left: 55px;
   width: 15%;
+}
+@media screen and (min-width: 768px) {
+  .delete-btn {
+    margin-left: 35px;
+  }
 }
 .delete-img {
   height: 25px;

@@ -40,6 +40,7 @@
   width: 90%;
   border-radius: 5px;
   margin-top: 20px;
+  padding-bottom: 10px;
 }
 @media screen and (min-width: 768px) {
   .cards-container {
@@ -148,6 +149,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 12px;
 }
 .your-passwords-search-container {
   display: flex;
@@ -157,14 +159,23 @@
   width: 90%;
   margin-top: 8px;
 }
+@media screen and (min-width: 768px) {
+  .your-passwords-search-container {
+  }
+}
 .your-passwords {
   color: #ffffff;
-  font-size: 22px;
+  font-size: 18px;
   font-family: 'Roboto';
   font-weight: 500;
   display: flex;
   justify-content: baseline;
   align-items: baseline;
+}
+@media screen and (min-width: 768px) {
+  .your-passwords {
+    font-size: 22px;
+  }
 }
 .passwords-count {
   border-color: #ffffff;
@@ -181,13 +192,19 @@
 }
 .search-input-container {
   background-color: #f8fafc;
-  height: 25px;
-  width: 35%;
+  height: 22px;
+  width: 45%;
   border-radius: 2px;
   display: flex;
   justify-content: baseline;
   align-items: center;
   margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .search-input-container {
+    width: 35%;
+    height: 25px;
+  }
 }
 .search-icon {
   height: 20px;
@@ -253,5 +270,11 @@
   padding-left: 0px;
   height: 350px;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .passwords-list-container {
+    flex-direction: row;
+  }
 }
